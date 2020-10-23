@@ -1,4 +1,3 @@
-```
 class People {
     constructor(name) {
         this.name = name
@@ -220,4 +219,3 @@ class Adapter extends People {
 const adapter = new Adapter(new Animal('wolf'), 'paddy')
 adapter.speak('Adapter')
 adapter.roar('Adapter')
-```
